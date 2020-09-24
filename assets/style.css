@@ -1,0 +1,79 @@
+body {
+  padding-top: 5rem;
+  background-color: #272633;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #c9d030;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    color: #50becf;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #50becf;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    color: #50becf;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    color: #50becf;
+}
+
+h6 {
+    font-family: 'Roboto Slab', serif;
+    color: #50becf;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #f3f3f6;
+}
+
+
+
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #272633;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f3f3f6;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #c9d030;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, 
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #646c7e;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+.lead {
+    font-weight: 400;
+    color: #50becf;
+}
