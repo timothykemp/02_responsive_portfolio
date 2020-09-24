@@ -87,10 +87,9 @@ button:focus {
     color: #50becf;
 }
 
-.content {
-    background-color: #646c7e;
+.pageheader {
+    padding-top: 2rem;
 }
-
 
 
 
