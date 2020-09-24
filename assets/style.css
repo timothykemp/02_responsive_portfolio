@@ -40,15 +40,6 @@ p {
 }
 
 
-
-
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
-}
-
-
-
 /* Navigation Bar */
 
 .navbar {
@@ -68,12 +59,43 @@ p {
     color: #646c7e;
 }
 
+.navbar-dark .navbar-toggler {
+  border-color: #f3f3f6;
+}
+
+.navbar-dark .navbar-toggler:hover {
+  border-color: #646c7e;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28243, 243, 246' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28100, 108, 126' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 button:focus {
     outline: none;
 }
 
 
+/* Main Body */
+
 .lead {
     font-weight: 400;
     color: #50becf;
+}
+
+
+
+
+
+
+
+/* Default CSS */
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
