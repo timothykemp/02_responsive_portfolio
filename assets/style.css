@@ -1,3 +1,5 @@
+/* Main Elements */
+
 body {
   padding-top: 5rem;
   background-color: #272633;
@@ -84,6 +86,7 @@ button:focus {
 
 .lead {
     font-weight: 400;
+    font-size: 17px;
     color: #50becf;
 }
 
@@ -92,12 +95,53 @@ button:focus {
 }
 
 
+/* Form */
 
+.form-group label {
+  color: #f3f3f6;
+  font-family: 'Roboto Slab', serif;
+}
 
+.form-control {
+  color: #646c7e;
+  font-family: 'Roboto', sans-serif;
+}
 
-/* Default CSS */
+.text-muted {
+  color: #b3b4b9!important;
+}
 
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+.btn-primary {
+  color: #f3f3f6;
+  font-family: 'Roboto', sans-serif;
+  background-color: #edad3d;
+  border-color: #f3f3f6;
+}
+
+.btn-primary:hover {
+  color: #f3f3f6;
+  font-family: 'Roboto', sans-serif;
+  background-color: #c9d030;
+  border-color: #f3f3f6;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #f3f3f6;
+  font-family: 'Roboto', sans-serif;
+  background-color: #c9d030;
+  border-color: #f3f3f6;
+  box-shadow: 0 0 0 0.2rem #c9d030;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #f3f3f6;
+  font-family: 'Roboto', sans-serif;
+  background-color: #c9d030;
+  border-color: #f3f3f6;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #c9d030;
 }
